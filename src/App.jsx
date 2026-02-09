@@ -5,6 +5,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./Pages/Home";
 import News from "./Pages/News";
+import AboutUs from "./Pages/AboutUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </>
   );
